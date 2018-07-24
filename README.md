@@ -4,7 +4,7 @@
 
 In videosAPI.js we fetch this video information by using fetch Api - method fetch() to the URL:
 ```
-getURL:'https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=50&key=AIzaSyC7kBGILATndHu2dbDqQoEXYw8x6CswPsU'
+getURL:'https://www.googleapis.com/youtube/v3/videos?part=snippet&chart=mostPopular&maxResults=50&key=yourApiKey'
 ```
 In response to this request, we receive an object of the following type:
 ```
