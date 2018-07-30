@@ -10,7 +10,6 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[id].[hash].bundle.js'
-        // filename: '[id].bundle.js'
     },
     module: {
         rules: [
